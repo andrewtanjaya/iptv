@@ -1,0 +1,122 @@
+.footer-wrapper {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10fr 1fr;
+      grid-template-columns: 1fr 10fr 1fr;
+  grid-auto-rows: 60px;
+}
+
+.footer-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #CB9B24;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-center p {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+.footer-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #CB9B24;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-right span {
+  width: 90px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 2px 5px;
+  background-color: #FFFFFF;
+  color: #CB9B24;
+  border-radius: 5px;
+}
+
+.billing-icon {
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+}
+
+.message-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.message-icon span {
+  position: absolute;
+  top: 6px;
+  right: 4px;
+  z-index: 2;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50px;
+  background-color: red;
+}
+
+.msg-icon {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+}
+/*# sourceMappingURL=Footer.css.map */

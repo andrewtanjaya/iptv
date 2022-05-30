@@ -1,0 +1,33 @@
+.small-wrapper{
+    background: rgba( 0, 0, 0, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border: 1px solid rgba(255, 255, 255, 0.119);
+    border-radius: 10px;
+    width: 155px;
+    height: 190px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    p{
+        position: absolute;
+        left: 50%;
+        bottom: 6px;
+        font-size: 14px;
+        width: 90%;
+        transform: translateX(-50%);
+    }
+    img{
+        position: absolute;
+        left: 50%;
+        top: 50px;
+        width: 66px;
+        height: 66px;
+        transform: translateX(-50%);
+    }
+}
+
